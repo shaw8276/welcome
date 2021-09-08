@@ -1,0 +1,22 @@
+ {% extends 'base.html' %}
+
+
+ {% block content  %}
+      <div class="container-fluid">
+		<div class="row main-content bg-success text-center">	
+			<div class="col-md-8 col-xs-12 col-sm-12 login_form ">
+				<div class="container-fluid">
+					<div class="row">
+						<h2>Success your payment has been successful.</h2>
+					</div>
+                    <div class="card-text text-center">
+                    thanks for chai.
+                    </div>
+                    <a class="btn btn-primary" href="{% url 'login_attempt' %}">Log-in</a>
+				</div>
+			</div>
+		</div>
+	</div>
+  
+
+ {% endblock %}
